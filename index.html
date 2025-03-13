@@ -1,0 +1,147 @@
+<!--Tipo de documento-->
+<!DOCTYPE html>
+<!--Linguágem do site-->
+<html lang="pt-br">
+<!--Determina a "cabeça" do site.-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--Estilo, muito importante usar o "UTF-8"-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!--Determina o site compativel com o Edge (navegador)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!--Faz com o que o site se ajeite de forma com o dispositivo que o acessar-->
+    <meta name="description" content="Natalia Gilioli Nutricionista">
+    <!--Faz aparecer como descrição quando compartilhado o link-->
+    <meta name="author" content="Mauro Moriggi (Paçoca)">
+    <!--Assinatura do criador do site-->
+    <meta name="keywords" content="Site Nutricionista, Nutricionista, vegetariano, dieta, receita, natalia gilioli,">
+    <!--São as tags do site, sistema de busca para poder ser procurado, hoje em dia não é tão importante, mas ajuda um pouco-->
+    <title>Natalia Gilioli Nutricionista</title>
+    <!--Utilizado para salvar o arquivo com o nome automaticamente-->
+    <link rel="stylesheet" href="/SiteNat/Style/style.css">
+    <!--Link para o CSS-->
+    <script src="/SiteNat/Script/script.js"></script>   
+</head>
+<!--"body" como o nome já diz, o corpo do site, todo o conteúdo estará aqui-->
+<body class="corpo">
+    <div id="inicioo">      
+        <div id="ellou">
+        <img class="img" width="750px" src="/SiteNat/Style/N.png">
+        <img class="ellouu" width="400px" src="/SiteNat/Style/natti.png"></div>
+
+
+    <!--"header" é o cabeçalho do site, onde ficam os links e o título do site-->
+    <div class="espaco-cabecalho"></div> <!-- Garante espaço quando fixar -->
+    <header class="cabecalho">
+        <nav class="links">
+            <a id="inicio" href="#inicioo">Início</a>
+            <a id="sobre" href="#conteabout">Sobre</a>
+            <a id="contato" href="#hors">Fale Comigo</a>
+            <a id="servicos" href="#serv">Serviços</a>
+        </nav>
+    </header>    
+    </div>
+
+    <!--CONTEUDO SOBRE-->
+    <div id="conteabout">
+        <div class="conteinerabout">
+            <div id="descricao2">
+                <h2 id="sos">Um pouco sobre mim.</h2>
+                <!--"p" descrição do h1(h2,h3,h4,h5,h6)-->
+                <p><b>Nutricionista</b> dedicada e focada em dieta <strong>vegetariana</strong>.</p>
+                <!--"b" ou "Strong" é utilizado para deixar em negrito-->
+        <!--"hr" Utilizado para deixar uma linha ( ___ ), usado para dividir alguns títulos-->
+        <p>Meu nome é Natalia de Souza Gilioli, sou vegetariana desde 01/01/2022,
+            nasci em Caçador (Santa Catarina), me formei
+            com 21 Anos de idade na <abbr title="UNIARP">Universidade Alto Vale do Rio do Peixe</abbr>,
+            Me dediquei e me
+            profissionalizei em alimentação e dieta vegetariana.
+            Escrevi meu TCC em meados de 2021, onde meu foco foi totalmente na fruta de Maracujá.</p>
+
+            <p>Logo abaixo o link video de 15 minutos da minha apresentação <b>"Do lixo a Mesa"</b>.</p>
+
+            <div class="video-botao">
+                <button class="botao" onclick="window.open('https://www.youtube.com/watch?v=vxpaRX2J-Vc', '_blank')">Meu TCC</button>
+                <div class="video-pop-up">
+                  <div class="video-container">
+                    <iframe class="video" id="video" width="560" height="315" 
+                      src="https://www.youtube.com/embed/vxpaRX2J-Vc" 
+                      title="Meu TCC" frameborder="0" 
+                      allowfullscreen>
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+
+       <p> Além do Português, falo Inglês e espanhol, também atuo como professora nas duas linguas.
+            <!--"br" é utilizado (não utilizado pois o alinhamento é feito usando o CSS)
+         para quebrar a linha no texto, pois o sistema não entende o texto como está no código.
+        Se usar o "br" duas vezes ("br""br") ele cria uma margem)-->
+            Hoje atuo presencialmente na sua região (Caçador), e online para o Brasil todo,
+        me dedico diariamente em fazer a vida do cidadão mais saudável.
+            </p>
+         </div>
+         </div>
+         </div>
+         <!--HORARIO ATENDIMENTO-->
+        <div id="hors">
+        <div>
+         <div class="conteinerhors">
+                        <h2 id="tittlehoras">Horário de Funcionamento!</h2>
+         <h2 id="tittlehors">A agenda está aberta para atendimento online e presencial, para agendar, pode mandar mensagem em qualquer rede
+        social:</h2>
+         
+         <!--HORARIOS-->
+         <div>
+            <h3>Horários de funcionamento:</h3>
+             <p class="segunda">Segunda-Feira:8:30 > 11:30 das 13:30 as 18:00</p>
+             <p class="terca">Terça-Feira:8:30 > 11:30 das 13:30 as 18:00 </p>    
+             <p class="quarta">Quarta-Feira:8:30 > 11:30 das 13:30 as 18:00</p>
+             <p class="quinta">Quinta-Feira:8:30 > 11:30 das 13:30 as 18:00</p>
+             <p class="sexta">Sexta-Feira:8:30 > 11:30 das 13:30 as 18:00</p>
+             <p class="sabado">Sabado, domingo e Feriados: Fechado</p>
+         
+             <div class="redes-sociais">
+                <div class="card">
+                    <div class="card">
+                        <a href="https://www.instagram.com/nataliagilioli?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="socialContainer containerOne">
+                          <svg class="socialSvg instagramSvg" viewBox="0 0 16 16"> <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path> </svg>
+                        </a>                        
+                        <a href="https://api.whatsapp.com/send/?phone=5549999519438&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="socialContainer containerFour">
+                          <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+                        </a>
+                      </div> 
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="serv">
+    <div class="conteinerserv">
+        <div id="servico">
+            <h2 id="titleserv">O que eu Faço?</h1>
+            <p id="text22">Consultas Online</p>
+            <p id="text23">Consultas Presencial</p>
+            <p id="text24">Analise de Massa Corporal</p>
+            <p id="text25">Dietas Gerais</p>
+            <p id="text26">Dietas Restritivas</p>
+            <p id="text27">Dietas Vegetarianas</p>
+            <p id="text28">Dietas Esportivas</p>
+            <p id="text29">Auxilio Nutricional</p>
+            <p id="text30">Para ganho de Massa</p>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <p>&copy; 2023 - Todos os direitos reservados</p>
+        <small>
+        <p id="eu">Desenvolvido por Mauro Moriggi</p>
+    </small>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <!--Estilo, muito importante usar o "UTF-8"-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!--Determina o site compativel com o Edge (navegador)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Faz com o que o site se ajeite de forma com o dispositivo que o acessar-->
+    <meta name="description" content="Formulário">
+    <!--Faz aparecer como descrição quando compartilhado o link-->
+    <meta name="author" content="Mauro Moriggi (Paçoca)">
+    <!--Assinatura do criador do site-->
+    <meta name="keywords" content="Site Nutricionista, Nutricionista, vegetariano, dieta, receita, natalia gilioli,">
+    <!--São as tags do site, sistema de busca para poder ser procurado, hoje em dia não é tão importante, mas ajuda um pouco-->
+    <title>Formulário</title>
+    <!--Utilizado para salvar o arquivo com o nome automaticamente-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Link para o CSS-->
+</head>
+<body class="corpo">
+    <h1>Conte-me um pouco sobre você!</h1>
+    <!--"form" é a tag que utiliza para criar um formulário
+    <"input" é tag para criar a caixa onde digita
+    <"label" é a legenda para a caixa de digitar
+    <"placeholder" é a explicação dentro da caixa que some quando digita
+    "for="..."" é a tag que apos dar um id para o Input, quando clicado na label o campo respectivo será selecionado para o usuário preencher-->
+    <form>
+        <hr>
+        <!--Nome-->
+        <label for="campo_nome">Qual seu nome?</label>
+        <br>
+        <input id="campo_nome" type="Text" required placeholder="Digite seu nome aqui!">
+        <hr>
+        <!--Sobrenome-->
+        <label for="campo_sobrenome">Qual seu Sobrenome?</label>
+        <br>
+        <input id="campo_sobrenome" type="Text" required placeholder="Digite seu Sobrenome aqui!">
+        <hr>
+        <!--Idade-->
+        <label for="campo_idade">Qual sua Idade?</label>
+        <br>
+        <input id="campo_idade"  type="number" required placeholder="Digite sua Idade aqui!">
+        <hr>
+        <!--PEse-->
+        <label for="campo_peso">Qual seu Peso?</label>
+        <br>
+        <input id="campo_peso" type="text" required required placeholder="Digite seu peso aproximado!">
+        <hr>
+        <!--Treino-->
+        <label for="campo_treino">Você pratica Atividade Física?</label>
+        <br>
+        <textarea id="campo_treino" rows="1" required placeholder="Se sim,qual/quais?"></textarea>
+        <hr>
+        <!--Frequencia-->
+        <label for="campo_frequencia">Com que frequência?</label>
+        <br>
+        <input id="campo_frequencia" type="text" placeholder="Frequência de/dos treino(s)">
+        <hr>
+<!--Alergia-->
+        <label for="campo_alergia">Tem alguma alergia?</label>
+        <br>
+        <textarea id="campo_alergia" rows="1" required placeholder="Se sim, qual/quais?"></textarea>
+        <hr>
+        <!--Enviar-->
+        <input type="submit" value="Enviar Formulário!">
+        <hr>
+    </form>
+</body>
+</html>
